@@ -49,7 +49,7 @@ for b in text:
     if b == " ":
         m.append(v[ : : -1])
         v = ""
-m.append(v)
+m.append(v[ : : -1])
 b = ' '.join(m)
 print(b)
 
