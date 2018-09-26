@@ -28,6 +28,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text = str(input("Please enter a string of text (the bigger the better): "))
 print('You entered "'+ text + '". Now jumble it: ')
 print(text[ : : -1])
+#-------------------------------------------------------------------------------
 w = []
 t = ""
 for a in text:
@@ -37,4 +38,21 @@ for a in text:
         w.append(t)
         t = ""
 w.append(t)
-print(w[ : : -1])  
+b = ' '.join(w[ : : -1])
+print(b)
+#-------------------------------------------------------------------------------
+m = []
+v = ""
+for b in text:
+    if b != " ":
+        v = v + b
+    if b == " ":
+        m.append(v[ : : -1])
+        v = ""
+m.append(v)
+b = ' '.join(m)
+print(b)
+
+
+
+
