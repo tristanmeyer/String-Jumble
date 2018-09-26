@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Tristan Meyer
-Credit: Pierre Mayo/Noah Pikielny
+Credit: Noah Pikielny
 
 Assignment:
 
